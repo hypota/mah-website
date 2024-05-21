@@ -7,55 +7,36 @@
     <title>Hypota's Website</title>
     <style>
         body {
+            background-color: black;
+            color: green;
             font-family: Arial, sans-serif;
-            text-align: center;
         }
         .toolbar {
+            background-color: blue;
             position: fixed;
             bottom: 0;
             left: 0;
             width: 100%;
-            background-color: #333;
-            color: white;
             padding: 10px;
+            text-align: center;
         }
-        .toolbar a {
-            color: white;
-            text-decoration: none;
-            margin: 0 10px;
-        }
-        .top-right {
-            position: absolute;
-            top: 0;
-            right: 0;
-            padding: 10px;
-        }
-        .top-left {
-            position: absolute;
-            top: 0;
-            left: 0;
-            padding: 10px;
+        .content {
+            text-align: center;
+            margin-top: 100px;
         }
     </style>
 </head>
 <body>
-    <div class="top-right">My pronouns are they/them!</div>
-    <h1>Hi! I'm hypota! I can go by hypota or fluffybuns!</h1>
+    <div class="content">
+        <h1>Hi! I'm hypota! I can go by hypota or fluffybuns!</h1>
+        <p>My pronouns are they/them!</p>
+    </div>
     <div class="toolbar">
         <a href="#about">About Me</a>
     </div>
     <div id="about" style="display: none;">
         <p>I love D&D, SpongeBob SquarePants, and hugs! I love cuddling with my body pillow! I have a girlfriend and she's the best!</p>
-        <a class="top-left" href="#">Back to Home</a>
+        <a href="#">Back to Home</a>
     </div>
-    <script>
-        document.querySelector('.toolbar a').addEventListener('click', function() {
-            document.getElementById('about').style.display = 'block';
-        });
-        document.querySelector('.top-left').addEventListener('click', function() {
-            document.getElementById('about').style.display = 'none';
-        });
-    </script>
-    <div class="toolbar">This website was made with AI.</div>
 </body>
 </html>
