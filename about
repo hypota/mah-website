@@ -21,7 +21,7 @@
 <body>
     <div class="container">
         <p>I love D&D, SpongeBob SquarePants, and hugs! I love cuddling with my body pillow! I have a girlfriend and she’s the best!</p>
-        <button onclick="window.location.href='index.html'">Back to home</button>
+        <button onclick="window.location.href='https://mah-website.vercel.app/'">Back to home</button>
     </div>
     <div class="image">
         <img src="spongebob.jpg" alt="SpongeBob">
